@@ -4095,6 +4095,10 @@ textarea.form-control-lg {
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
   transition: box-shadow 0.15s ease-in-out;
+  -webkit-transition: box-shadow 0.15s ease-in-out;
+  -moz-transition: box-shadow 0.15s ease-in-out;
+  -ms-transition: box-shadow 0.15s ease-in-out;
+  -o-transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
